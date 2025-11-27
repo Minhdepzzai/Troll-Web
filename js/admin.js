@@ -490,15 +490,15 @@
         function renderEscrowActionsHtml(e) {
             // actions depend on status and who is "you". For demo assume current user is "me" (buyer)
             if (e.status === 'pending') {
-                return `<button class="px-3 py-1 rounded bg-emerald-600 text-sm" onclick="acceptEscrow('${e.id}')">Accept & Lock Funds</button>
-                <button class="px-3 py-1 rounded bg-white/5 text-sm" onclick="cancelEscrow('${e.id}')">Cancel</button>`;
+                return `<button class="px-3 py-1 rounded bg-emerald-600 text-sm" onclick="acceptEscrow('${e.id}')">Xác nhận</button>
+                <button class="px-3 py-1 rounded bg-white/5 text-sm" onclick="cancelEscrow('${e.id}')">Hủy</button>`;
             } else if (e.status === 'in_escrow') {
-                return `<button class="px-3 py-1 rounded bg-indigo-600 text-sm" onclick="releaseEscrow('${e.id}')">Release</button>
-                <button class="px-3 py-1 rounded bg-red-600 text-sm" onclick="disputeEscrow('${e.id}')">Raise Dispute</button>`;
+                return `<button class="px-3 py-1 rounded bg-indigo-600 text-sm" onclick="releaseEscrow('${e.id}')">Đăng lên</button>
+                <button class="px-3 py-1 rounded bg-red-600 text-sm" onclick="disputeEscrow('${e.id}')">Hủy</button>`;
             } else if (e.status === 'released') {
-                return `<div class="text-xs text-green-300">Released ✓</div>`;
+                return `<div class="text-xs text-green-300">Đã xác nhận</div>`;
             } else if (e.status === 'disputed') {
-                return `<div class="text-xs text-amber-300">Disputed — Admin review</div>`;
+                return `<div class="text-xs text-amber-300">Đã hủy bỏ bởi Admin</div>`;
             }
             return '';
         }
