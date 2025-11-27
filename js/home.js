@@ -22,10 +22,10 @@ const modal = document.getElementById('modal');
 
         const article = document.createElement("article");
         article.className = "col-span-1 sm:col-span-1 lg:col-span-1 rounded-lg bg-gray-800/50 p-4 border border-white/5";
-
+        const baseURL = "https://minhdepzzai.github.io/Troll-Web/";
         article.innerHTML = `
             <div class="h-40 rounded-lg overflow-hidden mb-3 relative">
-              <img src="${file_name}"
+              <img src="${baseURL}${file_name}"
                   class="w-full h-full object-cover"
                   alt="preview">
               
