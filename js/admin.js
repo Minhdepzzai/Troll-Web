@@ -6,7 +6,7 @@
                 name: 'Vũ Sena',
                 last: 'Mình cần 1 dashboard',
                 online: true,
-                avatar: '/img/sena.png', // <-- sửa chỗ này
+                avatar: 'https://minhdepzzai.github.io/Troll-Web/img/sena.png', // <-- sửa chỗ này
                 messages: [
                     {
                         id: 'm1',
