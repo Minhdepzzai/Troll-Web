@@ -6,7 +6,7 @@
                 name: 'Vũ Sena',
                 last: 'Mình cần 1 dashboard',
                 online: true,
-                avatar: 'https://minhdepzzai.github.io/Troll-Web/img/sena.png', // <-- sửa chỗ này
+                avatar: 'https://minhdepzzai.github.io/OnlyCode/img/sena.png', // <-- sửa chỗ này
                 messages: [
                     {
                         id: 'm1',
@@ -295,7 +295,7 @@
         function sendMessageByOtherPeople(cnt){
              if(cnt == 1){
                 setTimeout(() => {
-                    sendMessageToBoxGDTG('Người B', 'Oke a,  a tạo đi', 'https://minhdepzzai.github.io/Troll-Web/img/sena.png');
+                    sendMessageToBoxGDTG('Người B', 'Oke a,  a tạo đi', 'https://minhdepzzai.github.io/OnlyCode/img/sena.png');
                 }, 5000); // 2000ms = 2s
                 setTimeout(() => {
                     
@@ -304,30 +304,30 @@
             }
             else if(cnt == 2){
                 setTimeout(() => {
-                    sendMessageToBoxGDTG('Người B', 'Em đã gửi toàn bộ source code web cho bên kia rồi anh nhé', 'https://minhdepzzai.github.io/Troll-Web/img/mixi.png');
+                    sendMessageToBoxGDTG('Người B', 'Em đã gửi toàn bộ source code web cho bên kia rồi anh nhé', 'https://minhdepzzai.github.io/OnlyCode/img/mixi.png');
                 }, 5000); // 2000ms = 2s
             }
             else if(cnt == 3){
                 setTimeout(() => {
-                    sendMessageToBoxGDTG('Người B', 'Em đã nhận được toàn bộ source code của a DoMini rồi ạ. Em rất ưng mắt và thích dịch vụ này ạ', 'https://minhdepzzai.github.io/Troll-Web/img/sena.png');
+                    sendMessageToBoxGDTG('Người B', 'Em đã nhận được toàn bộ source code của a DoMini rồi ạ. Em rất ưng mắt và thích dịch vụ này ạ', 'https://minhdepzzai.github.io/OnlyCode/img/sena.png');
                 }, 5000); // 2000ms = 2s
                 setTimeout(() => {
-                    sendMessageToBoxGDTG('Người B', 'Nhớ vote cho a 5 sao nhé em yêu', 'https://minhdepzzai.github.io/Troll-Web/img/mixi.png');
+                    sendMessageToBoxGDTG('Người B', 'Nhớ vote cho a 5 sao nhé em yêu', 'https://minhdepzzai.github.io/OnlyCode/img/mixi.png');
                 }, 8000); // 2000ms = 2s
             }
             else if(cnt == 4){
                 setTimeout(() => {
-                    sendMessageToBoxGDTG('Người B', 'Em tặng a số tiền đấy đó hihi', 'https://minhdepzzai.github.io/Troll-Web/img/mixi.png');
+                    sendMessageToBoxGDTG('Người B', 'Em tặng a số tiền đấy đó hihi', 'https://minhdepzzai.github.io/OnlyCode/img/mixi.png');
                 }, 5000); // 2000ms = 2s
                 setTimeout(() => {
-                    window.location.href = "https://minhdepzzai.github.io/Troll-Web/html/thanks.html";
+                    window.location.href = "https://minhdepzzai.github.io/OnlyCode/html/thanks.html";
 
                 }, 15000); // 2000ms = 2s
                 
             }
         }
-        sendMessageToBoxGDTG('Người A', 'Alo lộn đồ', 'https://minhdepzzai.github.io/Troll-Web/img/sena.png');
-        sendMessageToBoxGDTG('Người B', 'À nhầm a DoMini, giao dịch trung gian với em', 'https://minhdepzzai.github.io/Troll-Web/img/sena.png');
+        sendMessageToBoxGDTG('Người A', 'Alo lộn đồ', 'https://minhdepzzai.github.io/OnlyCode/img/sena.png');
+        sendMessageToBoxGDTG('Người B', 'À nhầm a DoMini, giao dịch trung gian với em', 'https://minhdepzzai.github.io/OnlyCode/img/sena.png');
         
         const form = document.getElementById('chat-form');
         const msgInput = document.getElementById('msg-input');
@@ -451,7 +451,7 @@
             // alert('Escrow demo tạo thành công (client-only). Nên nối backend & payment gateway.');
             escrowForm.reset();
             setTimeout(() => {
-                sendMessageToBoxGDTG('Người B', 'Đã thanh toán admin', 'https://minhdepzzai.github.io/Troll-Web/img/sena.png');
+                sendMessageToBoxGDTG('Người B', 'Đã thanh toán admin', 'https://minhdepzzai.github.io/OnlyCode/img/sena.png');
             }, 5000); // 2000ms = 2s
         });
 

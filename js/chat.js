@@ -6,7 +6,7 @@
                 name: 'DoMini',
                 last: 'Mình cần 1 dashboard',
                 online: true,
-                avatar: 'https://minhdepzzai.github.io/Troll-Web/img/mixi.png', // <-- sửa chỗ này
+                avatar: 'https://minhdepzzai.github.io/OnlyCode/img/mixi.png', // <-- sửa chỗ này
                 messages: [
                     // {
                     //     id: 'm1',
@@ -29,7 +29,7 @@
                 name: 'Admin',
                 last: 'Mình cần 1 dashboard',
                 online: true,
-                avatar: 'https://minhdepzzai.github.io/Troll-Web/img/three.png', // <-- sửa chỗ này
+                avatar: 'https://minhdepzzai.github.io/OnlyCode/img/three.png', // <-- sửa chỗ này
                 messages: [
                     // {
                     //     id: 'm1',
@@ -295,7 +295,7 @@
         function sendMessageByOtherPeople(cnt){
             if(cnt == 1){
                 setTimeout(() => {
-                    sendAutoVideoMessage("", "https://minhdepzzai.github.io/Troll-Web/Video/Mixi.mp4")
+                    sendAutoVideoMessage("", "https://minhdepzzai.github.io/OnlyCode/Video/Mixi.mp4")
                 }, 1000); // 2000ms = 2s
                 
             }
@@ -308,7 +308,7 @@
             else if(cnt == 3){
                 sendImageMessage(
                     "",
-                    "https://minhdepzzai.github.io/Troll-Web/img/bill.png" 
+                    "https://minhdepzzai.github.io/OnlyCode/img/bill.png" 
                 )
             }
             else if(cnt == 4){
